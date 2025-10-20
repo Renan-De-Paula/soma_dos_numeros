@@ -1,35 +1,46 @@
-➕ Soma de Números – Python
+➕ Soma dos Números – Python
 
-Este script em Python permite ao usuário inserir uma sequência de números e calcular a soma total até que o usuário decida parar, digitando 999. Ideal para situações onde o número de entradas não é pré-definido.
+Este script em Python permite que o usuário insira múltiplos números e, ao digitar 000, o programa calculará a soma total de todos os números inseridos e exibirá a quantidade de números informados.
 
 🔧 Funcionalidades
 
-Solicita números ao usuário até que 999 seja inserido.
+Solicita ao usuário que insira números até que 000 seja digitado.
 
 Calcula a soma total dos números inseridos.
 
-Informa ao final a quantidade de números digitados e a soma.
+Informa ao final a quantidade de números digitados e o total da soma.
 
 📌 Exemplo de Saída
 
-Digite um numero: [00 para parar] 5
+Digite um número: [00 para parar] 5
 
-Digite um numero: [00 para parar] 7
+Digite um número: [00 para parar] 3
 
-Digite um numero: [00 para parar] 3
+Digite um número: [00 para parar] 7
 
-Digite um numero: [00 para parar] 00
+Digite um número: [00 para parar] 00
 
-Você digitou 3 números, o total foi 15!
+A soma dos 3 números é 15.
+
 
 💡 Tecnologias Utilizadas
 
 Python 3.x
 
-Estrutura de repetição while
+Estruturas de controle: while, if, break
+
+📈 Melhorias Futura
+
+Validar entradas para garantir que o usuário insira apenas números.
+
+Oferecer uma opção para reiniciar o cálculo ou continuar somando números após a pausa.
+
+Adicionar a opção de mostrar a média dos números informados.
 
 📄 Licença
+
 Distribuído sob a licença MIT.
 
 📬 Contato
-Dúvidas, sugestões ou contribuições são bem-vindas! 😊
+
+Fique à vontade para sugerir melhorias ou contribuir! 😊
