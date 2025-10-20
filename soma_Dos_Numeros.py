@@ -1,14 +1,19 @@
-# Inicializa as variáveis para contagem e soma
-num = cont = soma = 0
+# Inicializa as variáveis de soma e contador
+soma = cont = 0
 
-# Solicita o primeiro número ao usuário
-num = float(input("Digite um numero: [00 para parar] "))
+# Laço infinito para continuar pedindo números até o usuário digitar 00
+while True:
+    # Solicita ao usuário digitar um número
+    num = float(input("Digite um número: [00 para parar] "))
+    
+    # Verifica se o número digitado é 00, para interromper o laço
+    if num == 00:
+        break  # Encerra o laço se o número for 000
+    
+    # Adiciona o número à soma
+    soma += num
+    # Incrementa o contador de números
+    cont += 1
 
-# Enquanto o número digitado não for 999, o laço continua
-while num != 00:
-    cont += 1  # Incrementa a quantidade de números digitados
-    soma += num  # Soma o número ao total
-    num = float(input("Digite um numero: [00 para parar] "))  # Solicita o próximo número
-
-# Exibe a quantidade de números digitados e a soma total
-print(f"Você digitou {cont} números, o total foi {soma:.2f}!")
+# Exibe a soma dos números digitados e a quantidade de números
+print(f"A soma dos {cont} números é {soma}.")
